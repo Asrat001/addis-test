@@ -13,7 +13,7 @@
          <img src="<?php echo get_field('header_image'); ?>" alt="Header Image" class="h-100 object-fit-cover">
          <?php endif; ?>
       </div>
-      <div class="col  " style="">
+      <div class="col  " >
          
          <p> <?php echo get_the_content();?></p>
          <p>Price: <?php echo get_field('price'); ?></p>
